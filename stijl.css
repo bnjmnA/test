@@ -1,0 +1,64 @@
+body{ display: grid;
+        grid-template-columns:20vw 20vw 20vw 20vw 20vw;
+        grid-template-rows: 20vw 20vw 20vw 20vw 20vw;
+          background-color: white;
+            width: 1000px;
+              height: 1000px;
+                background-color: black;
+        ;}
+
+div{ grid-row-gap: -100px;
+   margin-left: 2vw;
+opacity: 0.5;}
+
+div:hover{opacity:1; box-shadow: 0vw 0vw 1vw 1vw rgba(170,192,192,0.8);border: 0.5vw solid rgba(170,192,192,0.6);}
+
+/*div:hover{height: 500px; width: 3.5vh}*/
+
+
+div:nth-child(1){background-color:transparent; background-image: url(u22.jpg); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+
+div:nth-child(2){background-color:transparent; background-repeat: no-repeat; background-size: 20vw 20vw; background-image: url(http://uiconstock.com/wp-content/uploads/2014/07/HD-FaceBook-Wallpaper-5.jpg); background-size: contain;
+background-position: center center; margin-left: 2vw}
+
+div:nth-child(3){background-image: url(photoshop.jpg);
+background-repeat: no-repeat; background-size: contain;background-position: center center;}
+
+div:nth-child(4){background-color:transparent; background-image: url(versace.jpg);
+background-repeat: no-repeat;background-size:20vw 20vw; grid-row: 2; grid-column:2; background-size: contain; background-position: center center;}
+
+
+
+div:nth-child(5){background-image: url(invest.png); background-repeat: no-repeat;background-size: contain; background-position: center center; grid-row: 2; grid-column: 3}
+
+div:nth-child(8){background-color:transparent; background-image: url(https://image.flaticon.com/icons/png/512/185/185965.png);
+background-repeat: no-repeat;background-size:20vw 20vw; grid-row: 2; grid-column:4; background-size: 10vw 10vw; background-position: center center;}
+div:nth-child(9){background-color:transparent;}
+div:nth-child(10){background-color:transparent;}
+div:nth-child(11){background-color:red;}
+div:nth-child(12){background-color:blue;}
+div:nth-child(13){background-color:green;}
+
+
+div:nth-child(15){background-color: none; text-align: center; font-size: 2vw; grid-row: 1;
+grid-column: 1; padding: 10px; background-size: 20vw 20vw;}
+
+Img{ width: 20vw; height: 20vw;}
+
+
+ul{list-style-type: none; font-family: 'open sans', sans-serif; text-align: left;}
+h2{position: relative; padding-top: 210px; left: 25px;}
+
+li:nth-child(1){text-align: center;}
+
+li{ color: white;}
+
+@media(min-width:800px)  {
+
+
+
+
+
+
+
+}
